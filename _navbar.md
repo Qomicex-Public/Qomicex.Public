@@ -1,0 +1,17 @@
+- 首页
+- 快速开始
+  - [快速开始](docs/getting-started/index.md)
+  - [安装](docs/getting-started/installation.md)
+- API
+  - [概览](docs/api/index.md)
+  - [核心接口](docs/api/core-interfaces/index.md)
+  - [扩展接口](docs/api/extension-interfaces/index.md)
+- 教程
+  - [教程概览](docs/tutorials/index.md)
+  - [Hello World](docs/tutorials/hello-world.md)
+- 示例
+  - [示例代码](docs/examples/index.md)
+
+- [GitHub](https://github.com/qomicex/qomicex-avalonia)
+- [NuGet](https://www.nuget.org/packages/Qomicex.PluginSDK)
+- [Discord](https://discord.gg/qomicex)

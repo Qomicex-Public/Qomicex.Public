@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{208BA388-4CEE-2CBF-559C-5607C099C1F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{29C0FA52-4EA2-E1C0-04B6-3162E2848A9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "minimal-plugin", "minimal-plugin", "{85D3A8D8-885C-7A2B-9C43-7B6EAD39C943}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPlugin", "docs\examples\minimal-plugin\MyPlugin.csproj", "{3D7FE3F0-900F-6713-EC2B-D4F5855DE04A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D7FE3F0-900F-6713-EC2B-D4F5855DE04A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D7FE3F0-900F-6713-EC2B-D4F5855DE04A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D7FE3F0-900F-6713-EC2B-D4F5855DE04A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D7FE3F0-900F-6713-EC2B-D4F5855DE04A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29C0FA52-4EA2-E1C0-04B6-3162E2848A9C} = {208BA388-4CEE-2CBF-559C-5607C099C1F8}
+		{85D3A8D8-885C-7A2B-9C43-7B6EAD39C943} = {29C0FA52-4EA2-E1C0-04B6-3162E2848A9C}
+		{3D7FE3F0-900F-6713-EC2B-D4F5855DE04A} = {85D3A8D8-885C-7A2B-9C43-7B6EAD39C943}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB33D5DE-12A1-4784-8BEB-3009771571FA}
+	EndGlobalSection
+EndGlobal

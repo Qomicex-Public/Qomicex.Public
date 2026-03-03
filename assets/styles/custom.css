@@ -1,0 +1,90 @@
+:root {
+  --docsify-theme-color: #42b983;
+  --docsify-theme-color--light: #ecf7f2;
+  --docsify-sidebar-width: 280px;
+}
+
+/* 自定义样式 */
+.markdown-section {
+  max-width: 900px;
+}
+
+/* 代码块样式 */
+pre {
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 表格样式 */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5em 0;
+}
+
+table th, table td {
+  border: 1px solid #e0e0e0;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+table th {
+  background-color: var(--docsify-theme-color--light);
+  font-weight: 600;
+}
+
+table tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* 提示框样式 */
+.alert {
+  border-radius: 6px;
+  padding: 1rem 1.5rem;
+  margin: 1.5em 0;
+}
+
+.alert.callout {
+  border-left: 4px solid;
+}
+
+.alert-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* 导航栏样式 */
+.nav .item {
+  color: var(--docsify-theme-color);
+}
+
+/* 侧边栏样式 */
+.sidebar-nav li {
+  margin: 8px 0;
+}
+
+.sidebar-nav a {
+  color: #2c3e50;
+  font-size: 14px;
+}
+
+.sidebar-nav ul > li > a {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+/* 搜索框样式 */
+.search input {
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+}
+
+/* 标签页样式 */
+.docsify-tabs {
+  margin: 1.5em 0;
+}
+
+.docsify-tabs__tab {
+  border-radius: 4px 4px 0 0;
+}

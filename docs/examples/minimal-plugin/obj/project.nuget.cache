@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "bTz11NrANVc=",
+  "success": false,
+  "projectFilePath": "K:\\Deskep\\Works\\CS\\Qomicex.Avalonia.PluginSDK.Docs\\docs\\examples\\minimal-plugin\\MyPlugin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JunSi\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.23\\microsoft.netcore.app.ref.8.0.23.nupkg.sha512",
+    "C:\\Users\\JunSi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.23\\microsoft.windowsdesktop.app.ref.8.0.23.nupkg.sha512",
+    "C:\\Users\\JunSi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.23\\microsoft.aspnetcore.app.ref.8.0.23.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "找不到包 Qomicex.PluginSDK。源 Microsoft Visual Studio Offline Packages, nuget.org, Package source 中不存在具有此 ID 的包",
+      "projectPath": "K:\\Deskep\\Works\\CS\\Qomicex.Avalonia.PluginSDK.Docs\\docs\\examples\\minimal-plugin\\MyPlugin.csproj",
+      "filePath": "K:\\Deskep\\Works\\CS\\Qomicex.Avalonia.PluginSDK.Docs\\docs\\examples\\minimal-plugin\\MyPlugin.csproj",
+      "libraryId": "Qomicex.PluginSDK",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

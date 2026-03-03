@@ -1,0 +1,55 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:SettingsPlugin"
+             x:DataType="vm:MySettingsViewModel"
+             x:Class="SettingsPlugin.MySettingsView">
+    <Design.DataContext>
+        <vm:MySettingsViewModel/>
+    </Design.DataContext>
+
+    <ScrollViewer>
+        <StackPanel Margin="16" Spacing="16">
+
+            <!-- 标题 -->
+            <TextBlock Text="我的插件设置"
+                       FontSize="18"
+                       FontWeight="Bold"/>
+
+            <!-- 文本设置 -->
+            <StackPanel Spacing="4">
+                <TextBlock Text="设置 1"/>
+                <TextBox Watermark="输入值"
+                          Text="{Binding Setting1}"/>
+            </StackPanel>
+
+            <!-- 开关设置 -->
+            <CheckBox IsChecked="{Binding EnableFeature}">
+                启用功能
+            </CheckBox>
+
+            <!-- 滑块设置 -->
+            <StackPanel Spacing="4">
+                <TextBlock Text="滑块值"/>
+                <Slider Value="{Binding SliderValue}"
+                        Minimum="0"
+                        Maximum="100"
+                        TickFrequency="10"
+                        IsSnapToTickEnabled="True"/>
+                <TextBlock Text="{Binding SliderValue}"/>
+            </StackPanel>
+
+            <!-- 操作按钮 -->
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <Button Command="{Binding SaveSettingsCommand}"
+                        Padding="16,8">
+                    保存设置
+                </Button>
+                <Button Command="{Binding ResetToDefaultsCommand}"
+                        Padding="16,8">
+                    重置默认
+                </Button>
+            </StackPanel>
+
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

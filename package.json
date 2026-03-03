@@ -1,0 +1,25 @@
+{
+  "name": "qomicex-pluginsdk-docs",
+qomicex.pluginsdk.docs",
+  "version": "1.0.0",
+  "description": "Qomicex Plugin SDK 文档",
+  "scripts": {
+    "serve": "docsify serve . --open",
+    "init": "docsify init ."
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "docsify",
+    "sdk",
+    "plugin",
+    "qomicex"
+  ],
+  "author": "Qomicex",
+  "license": "MIT",
+  "devDependencies": {
+    "docsify-cli": "^4.4.4"
+  }
+}
